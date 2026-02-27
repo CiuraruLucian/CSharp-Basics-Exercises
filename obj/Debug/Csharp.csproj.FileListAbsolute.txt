@@ -1,0 +1,7 @@
+C:\Users\ciura\OneDrive\Desktop\C#\Exercises\Csharp\bin\Debug\Csharp.exe.config
+C:\Users\ciura\OneDrive\Desktop\C#\Exercises\Csharp\bin\Debug\Csharp.exe
+C:\Users\ciura\OneDrive\Desktop\C#\Exercises\Csharp\bin\Debug\Csharp.pdb
+C:\Users\ciura\OneDrive\Desktop\C#\Exercises\Csharp\obj\Debug\Csharp.csproj.AssemblyReference.cache
+C:\Users\ciura\OneDrive\Desktop\C#\Exercises\Csharp\obj\Debug\Csharp.csproj.CoreCompileInputs.cache
+C:\Users\ciura\OneDrive\Desktop\C#\Exercises\Csharp\obj\Debug\Csharp.exe
+C:\Users\ciura\OneDrive\Desktop\C#\Exercises\Csharp\obj\Debug\Csharp.pdb
