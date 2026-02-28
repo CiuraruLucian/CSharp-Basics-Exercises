@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+
+using System;
 
 namespace MyFirstApp
 {
@@ -99,6 +101,107 @@ namespace MyFirstApp
             {
                 Console.WriteLine(multiplicationTable[i]);
             }
+            // Micro exercises 
+            Console.WriteLine("-----------------------");
+            Console.WriteLine("Please enter a number: ");
+            int intAnswer = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"You entered the number: {intAnswer}");
+            // Exercise 2
+            Console.WriteLine("-----------------------");
+            Console.WriteLine("Please enter the first number: ");
+            int firstNumber = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter the second number: ");
+            int secondNumber = Convert.ToInt32(Console.ReadLine());
+            int result = firstNumber + secondNumber;
+            Console.WriteLine($"Your result is: {result}");
+            // Exercise 3
+            Console.WriteLine("-----------------------");
+            Console.WriteLine("Please enter a number: ");
+            int numberAnswer = Convert.ToInt32(Console.ReadLine());
+            if (numberAnswer % 2 == 0)
+            {
+                Console.WriteLine("The number introduced is even.");
+            }
+            else
+            {
+                Console.WriteLine("The number introduced is odd.");
+            }
+            // Condition exercises
+            Console.WriteLine("-----------------------");
+            Console.WriteLine("Please enter the first number: ");
+            int numOne = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter the second number: ");
+            int numTwo = Convert.ToInt32(Console.ReadLine());
+            if (numOne > numTwo)
+            {
+                Console.WriteLine($"{numOne} is bigger than {numTwo}");
+            }
+            else if (numOne < numTwo)
+            {
+                Console.WriteLine($"{numOne} is smaller than {numTwo}");
+            }
+            else
+            {
+                Console.WriteLine("The numbers are equal");
+            }
+
+            // Exercise 2
+            Console.WriteLine("-----------------------");
+            Console.WriteLine("Please enter a number: ");
+            int numIntroduced = Convert.ToInt32(Console.ReadLine());
+            if (numIntroduced > 0)
+            {
+                Console.WriteLine("The number introduced is positive.");
+            }
+            else if (numIntroduced < 0)
+            {
+                Console.WriteLine("The number introduced is negative.");
+            }
+            else
+            {
+                Console.WriteLine("The number introduced is equal to 0.");
+            }
+            // Exercise 3
+            Console.WriteLine("-----------------------");
+            Console.WriteLine("Please enter your score: ");
+            int score = Convert.ToInt32(Console.ReadLine());
+            if (score >= 90 && score <= 100)
+            {
+                Console.WriteLine("A");
+            }
+            else if (score >= 80 && score <= 89)
+            {
+                Console.WriteLine("B");
+            }
+            else if (score >= 70 && score <= 79)
+            {
+                Console.WriteLine("C");
+            }
+            else if (score >= 60 && score <= 69)
+            {
+                Console.WriteLine("D");
+            }
+            else if (score >= 0 && score <= 59)
+            {
+                Console.WriteLine("E");
+            }
+            else
+            {
+                Console.WriteLine("Invalid Score.");
+            }
+            //Loop Exercises
+            Console.WriteLine("-----------------------");
+            for (int i = 0; i <= 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+            // Exercise 2
+            int sum = 0;
+            for (int i = 0; i <= 100; i++)
+            {
+                sum = sum + i;
+            }
+            Console.WriteLine("The sum is: " + sum);
         }
     }
 }
